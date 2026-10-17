@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite this repository and the cosmic-chronometer data source listed in DATA.md."
+title: "Particle Swarm Optimization for Cosmological Parameter Estimation"
+type: software
+authors:
+  - family-names: Ansari
+    given-names: Allanur
+year: 2026
+version: 0.1.0

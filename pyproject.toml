@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pso-cosmology"
+version = "0.1.0"
+description = "Particle swarm optimization for cosmological parameter estimation with cosmic chronometer data"
+requires-python = ">=3.12"
+dependencies = [
+  "numpy>=2.0,<3",
+  "matplotlib>=3.9,<4",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
